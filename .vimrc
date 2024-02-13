@@ -16,6 +16,8 @@ set hlsearch
 set wildmenu
 set wildmode=list:longest
 colorscheme molokai
+let g:ale_completion_enabled = 1
+let g:ale_completion_autoimport = 1
 
 "PLUG-INS ---------------------------------------------------------------- {{{
 call plug#begin('~/.vim/plugged')
@@ -23,6 +25,21 @@ call plug#begin('~/.vim/plugged')
     Plug 'dense-analysis/ale'
     Plug 'preservim/nerdtree'
     Plug 'itchyny/lightline.vim'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'junegunn/fzf'
+    Plug 'mattn/emmet-vim'
+    Plug 'terryma/vim-multiple-cursors'
+    Plug 'tpope/vim-eunuch'
+    Plug 'tpope/vim-surround'
+    Plug 'valloric/youcompleteme'
+    if has('nvim')
+        Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+    else
+        Plug 'Shougo/deoplete.nvim'
+        Plug 'roxma/nvim-yarp'
+        Plug 'roxma/vim-hug-neovim-rpc'
+    endif
+    let g:deoplete#enable_at_startup = 1
 
 call plug#end()
 

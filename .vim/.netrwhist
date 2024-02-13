@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =0
+let g:netrw_dirhist_0='/home/ismael/.config/awesome/themes/zenburn'
+let g:netrw_dirhist_9='/home/ismael/.config/awesome/themes'
+let g:netrw_dirhist_8='/home/ismael/.config/awesome'
+let g:netrw_dirhist_7='/home/ismael/.config/picom'
+let g:netrw_dirhist_6='/home/ismael/.config'
+let g:netrw_dirhist_5='/home/ismael'
+let g:netrw_dirhist_4='/home/ismael/.config/awesome/themes/zenburn'
+let g:netrw_dirhist_3='/home/ismael/.config/awesome/themes/xresources'
+let g:netrw_dirhist_2='/home/ismael/.config/awesome/themes/default'
+let g:netrw_dirhist_1='/home/ismael/.config/awesome/themes'
